@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #111725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    height: 450px;
+    width: 900px;
+    /* border: 3px solid plum; */
+    display: flex;
+    flex-direction: row;
+}
+/* * pod_block code start here ************************ */
+section #pod_block{
+    height: inherit;
+    width: 300px;
+    /* border: 3px solid yellow; */
+    font-family: 'Nova Square', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    word-spacing: 6px;
+}
+
+section #pod_block i{
+    color: #57e5af;
+    font-size: 35px;
+}
+
+/* * pod_block code end here ************************ */
+
+/* * image_block code start here ************************ */
+section #image_block{
+    height: inherit;
+    width: 600px;
+    /* border: 3px solid yellow; */
+    background-image: url('/IMAGES/music.png');
+    background-repeat: no-repeat;
+    background-size: 600px 450px;
+    opacity: 80%;
+}
+/* * image_block code end here ************************ */
+
+/* * main_block code start here ************************ */
+section #main_block{
+    height: 350px;
+    width: 550px;
+    /* border: 3px solid paleturquoise; */
+    position: absolute;
+    margin-top: 100px;
+    background-color: #111725;
+
+}
+section #main_block .sample_block{
+    margin-top: 40px;
+    /* border: 3px solid salmon; */
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section #main_block .sample_block .design{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+section #main_block .sample_block .div1{
+    height: fit-content;
+    /* border: 3px solid khaki; */
+    color: #57e5af;
+    font-size: 36px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-weight: 300;
+}
+section #main_block .sample_block .div1 aside{
+    color: white;
+}
+section #main_block .sample_block .div2{
+    height: fit-content;
+    width: 310px;
+    /* border: 3px solid khaki; */
+    color: rgb(132, 132, 150);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+section #main_block .sample_block .div3{
+    padding: 15px 5px 15px 25px;
+    height: 50px;
+    width: 330px;
+    color: rgb(211, 208, 208);
+    font-size: 12px;
+    background-color: #2c344b;
+    border-radius: 50px;
+    /* border: 3px solid khaki; */
+    display: flex;
+    align-items: center;
+}
+section #main_block .sample_block .div3 aside{
+    height: 40px;
+    width: 120px;
+    margin-left: auto;
+    border-radius: 50px;
+    /* border: 3px solid khaki; */
+    background-color: #53e6af;
+    font-weight: 600;
+    color: #1c1f2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section #main_block .sample_block .div4{
+    height: 50px;
+    width: 420px;
+    /* border: 3px solid khaki; */
+    display: flex;
+    justify-content: space-between;
+}
+section #main_block .sample_block .div4 aside{
+    height: inherit;
+    /* border: 3px solid khaki; */
+    color: #6a6f86;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+}
+section #main_block .sample_block .div4 aside i{
+    font-size: 20px;
+}
+section #main_block .sample_block .div4 .part1{
+    font-size: 13px;
+    width: 75px;
+}
+section #main_block .sample_block .div4 .part2{
+    font-size: 10px;
+    width: 70px;
+}
+section #main_block .sample_block .div4 .part3{
+    font-size: 10px;
+    width: 110px;
+}
+section #main_block .sample_block .div4 .part4{
+    font-size: 13px;
+    width: 120px;
+}
+
+/* * main_block code end here ************************ */
+
+/* * design_block code start here ************************ */
+section #design_block{
+    height: 70px;
+    width: 150px;
+    border: 8px dotted #53e6af;
+    position: absolute;
+    margin: 410px 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section #design_block aside{
+    height: 35px;
+    width: 118px;
+    border: 8px dotted #53e6af;
+}
+
+/* * design_block code end here ************************ */
